@@ -1,7 +1,7 @@
 import React from "react";
 import App from "./components/App";
 import { createRoot } from 'react-dom/client';
-import './css/Home.css';
+import './css/About.css';
 
 if (typeof window !== 'undefined') {
   const container = document.getElementById('app');

@@ -6,7 +6,7 @@ import App from "../components/App";
 const server = express();
 server.use(express.static("dist"));
 
-server.get("/", (req, res) => {
+server.get("/*", (req, res) => {
   //const initialMarkup = ReactDOMServer.renderToString(<App />);
 
   res.send(`
@@ -38,7 +38,7 @@ server.get("/about", (req, res) => {
   `)
 });
 
-server.get("/projects", (req, res) => {
+server.get("/studio", (req, res) => {
   //const initialMarkup = ReactDOMServer.renderToString(<App />);
 
   res.send(`

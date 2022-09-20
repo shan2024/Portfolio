@@ -1,20 +1,25 @@
 import Navbar from "./Navbar";
-import Home from "./Home";
+import About from "./About";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Copyright from "./Copyright";
-import Projects from "./Projects";
-import PortfolioPage from "./projects/PortfolioPage";
+import Studio from "./Studio";
+import "../css/App.css";
+import PortfolioProject from "./projects/PortfolioProject";
+
 
 export default function App() {
   return (
+    <div className = "app">
     <Router>
       <Navbar/>
       <Routes>
-        <Route path="/" element={<Home/>} />
-        <Route path="/projects" element={<Projects/>} />
-        <Route path="/projects/portfolio" element={<PortfolioPage/>}/>
+        <Route path="/" element={<About/>} />
+        <Route path="/about" element={<About/>} />
+        <Route path="/studio" element={<Studio/>} />
+        <Route path="/projects/portfolio" element={<PortfolioProject/>}/>
       </Routes>
       <Copyright/>
     </Router>
+    </div>
   );
 }
