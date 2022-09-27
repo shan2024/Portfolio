@@ -7,12 +7,9 @@
   display: flex;
   flex-direction: column;
   gap:20px;
-
-  /* margin-top: 2rem; */
   margin-bottom: 1rem;
   margin-right: 2rem;
   margin-left: 2rem;
-
 }
 
 /*Studio container*/
@@ -34,8 +31,6 @@
   color: rgb(17, 17, 17);
   line-height: 30px;
 }
-
-
 
 .portfolio-project-link {
   position: relative;
@@ -114,9 +109,6 @@ a.portfolio-project-link:-webkit-any-link:hover .portfolio-image {
   text-decoration: underline;
 }
 
-
-
-
 /*Control the time element*/
 time {
   float:right;
@@ -135,6 +127,7 @@ time {
   -webkit-box-sizing: border-box;
 
   border-bottom: 1px solid transparent;  
+  margin-bottom: 5px;
 }
 
 .project-link:hover {
@@ -147,15 +140,3 @@ time {
   text-decoration: none;
 }
 
-/* .project-link .hor-line {
-  border-color: black;
-  border-style: none;
-  background-color: black;
-  height: 0.5px;
-  margin-right: 70px;
-  opacity: 0;
-}
-
-.project-link .hor-line:hover {
-  opacity: 100%;
-} */

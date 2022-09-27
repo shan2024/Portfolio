@@ -7,7 +7,7 @@ export default function About() {
           <p>This is my personal webpage</p>
         </div> */}
         <div className = "bio about-section">
-          <img className = "profile-pic" src="/images/profile3.jpg" alt="Picture of Seulchan Han" />
+          <img className = "profile-pic" src="/images/profile.jpg" alt="Picture of Seulchan Han" />
           <div className="bio-title title">About</div>
           <div className="bio-info info">Hello, I&apos;m Seulchan. I&apos;m a sophomore studying Computer Engineering and Applied Computational Math at the <a href="https://www.washington.edu/">University of Washington</a>.
           <br></br><br></br>

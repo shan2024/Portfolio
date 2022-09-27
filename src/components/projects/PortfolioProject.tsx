@@ -22,7 +22,7 @@ export default function PortfolioProject() {
         The thing about Wordpress templates is that there&apos;s usually a lot of eye-candy. 
         Wordpress sites tend to be full of bright colors and fancy transitions/animations. 
         Here&apos;s an example of what I&apos;m talking about:
-        <img className = "project-pic" src="/images/projects/flashyportfolio.png" alt="Picture of flashy porfolio" />
+        <img className = "project-pic" src="/images/projects/portfolio/flashyportfolio.png" alt="Picture of flashy porfolio" />
         The younger me would have loved these sorts of flashy design traits, but nowadays I prefer a simple, clean layout to websites. 
         In part, I think I am influenced by the design of my peers&apos; websites, which are often very straightforward. 
         Take a look at the personal websites of some graduate students at my school, for example: <a href="https://yoavartzi.com/">1</a>, <a href="https://mjyc.github.io/">2</a>, <a href="https://kentonl.com/"> 3</a>.
@@ -36,7 +36,7 @@ export default function PortfolioProject() {
         I also only needed two pages for my website: a “About” section with an introduction and a “Studio” section with essentially everything else.
          <br></br> <br></br> 
         All in all, my site turned out to look like this (but of course you&apos;ve already seen it):
-        <img className = "project-pic" src="/images/projects/myportfolio.png" alt="Picture of my current porfolio" />
+        <img className = "project-pic" src="/images/projects/portfolio/myportfolio.png" alt="Picture of my current porfolio" />
         </div>
       </div>
       <div className="project-section">

@@ -9,11 +9,8 @@
 .navbar {
   display: flex;
   flex-direction: row;
-  /* height: 5%; */
   gap:40px;
-  /* margin-right: 40px; */
   margin-top: 20px;
-  /* font-weight: 600; */
 }
 
 .navbar li {
@@ -23,13 +20,6 @@
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
 }
-
-/* li:hover {
-  color: rgb(7, 117, 251);
-  font-size: 24px;
-  list-style: none;
-  text-decoration: underline;
-} */
 
 .navbar a:-webkit-any-link {
   color: black;
@@ -41,8 +31,6 @@
 .navbar a:-webkit-any-link:hover {
   color: #1890ff;
   font-size: 20px;
-  /* text-decoration: underline;
-  text-underline-offset: 10px; */
 }
 
 #home-link {
